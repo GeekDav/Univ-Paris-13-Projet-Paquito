@@ -1,0 +1,28 @@
+Name: test8
+Version: '2.3'
+Homepage: 'http://testconfig.fr'
+Summary: 'resume test'
+Description: 'description test'
+Copyright: copy
+Maintainer: ronald<enjoyronald@hotmail.com>
+Authors:
+        - auteur1<auteur1@yahoo.fr>
+Packages:
+        'paquet test':
+                Type: binary
+                Files:
+                        from:
+                                Source: to
+                                Permission: '755'
+                Test:
+                        Files:
+                                'test file destin 1':
+                                        Source: 'test file  source 1'
+                                        Permission: '755'
+                        Dependencies:
+                                dsf:
+                                        Debian: dsf
+                                        Archlinux: dsf
+                                        CentOs: dsf
+                        Commands:
+                                - 'test commande 8'
